@@ -1,6 +1,18 @@
 # Java Exercícios
 
-Execícios de fixação de Java.
+### Sobre 
+
+Repositório feito para exercícios de fixação de Java, no quesito lógica, OOP e boas práticas.
+
+## Estrutura
+
+src/
+├── tipoderetorno/
+├── escopovariaveis/
+├── wrappers/
+├── nomenclatura/
+├── fluxoexecucao/
+└── heranca/
 
 ## Exercícios Concluídos
 
@@ -37,4 +49,10 @@ Execícios de fixação de Java.
 ### Herança e Polimorfismo 
 
 - [x] Criação da classe Animal com herança para Cachorro, Gato e Pato
-- [x] Teste de emição de sons utilizando o polimorfismo para que cada um implemente o comando da sua forma.
+- [x] Teste de emição de sons utilizando o polimorfismo para que cada um implemente o comando da sua forma
+
+
+
+
+
+

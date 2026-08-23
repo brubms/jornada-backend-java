@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         
-        ConversorTeste conv = new ConversorTeste();
+        /*ConversorTeste conv = new ConversorTeste();
 
         int resultado = conv.converterParaInteiro("42");
 
@@ -14,7 +14,14 @@ public class Main {
 
         boolean resultadoVali = validar.estarVazio(null);
 
-        System.out.println(resultadoVali);
+        System.out.println(resultadoVali);*/
+
+        Funcionario funcionario1 = new Funcionario("Bruno", 3900);
+
+        double resultadoBonus = funcionario1.bonus();
+
+        System.out.println(resultadoBonus);
+        
     }
 
 }

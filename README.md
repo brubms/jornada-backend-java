@@ -24,3 +24,17 @@ Execícios de fixação de Java.
 - [x] conversor de String para double
 - [x] conversor de int para String
 - [x] conversor de double para String
+
+### Nomenclatura
+
+- [x] Estudo de como declarar uma variável 
+- [x] Criação da classe ContaBancaria e Estudante
+
+### Fluxo de Execução
+
+- [x] Conceitos de break e Continue dentro do funcionamento do código
+
+### Herança e Polimorfismo 
+
+- [x] Criação da classe Animal com herança para Cachorro, Gato e Pato
+- [x] Teste de emição de sons utilizando o polimorfismo para que cada um implemente o comando da sua forma.

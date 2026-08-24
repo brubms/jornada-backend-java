@@ -6,7 +6,7 @@ public class Estagiario extends Funcionario {
 
     @Override
     public double bonus(){
-        return getSalario()*0.5;
+        return getSalario()*0.05;
     }
 
 }

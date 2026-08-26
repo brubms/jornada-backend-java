@@ -1,3 +1,4 @@
+package heranca;
 public class Funcionario {
 
     private String nome;

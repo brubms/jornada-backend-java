@@ -1,3 +1,4 @@
+package heranca;
 public class Estagiario extends Funcionario {
 
     public Estagiario(String nome, double salario){

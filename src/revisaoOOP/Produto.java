@@ -1,6 +1,6 @@
 package revisaoOOP;
 
-public class Produto {
+public abstract class Produto implements Tributavel {
 
     private String nome;
     private double preco;
@@ -14,9 +14,19 @@ public class Produto {
     public double getPreco(){
         return this.preco;
     }
-
-    public double precoFinal(){
-        return 0.0;
+    public String getNome(){
+        return this.nome;
     }
 
+    public double precoFinal(){
+        return this.preco + calcularImposto();
+    }
+    
+
+   @Override
+    public String toString(){
+        return "Produto: "+getNome() + " | Preço:  R$" + getPreco() + " |Valor do imposto: R$" + calcularImposto() + " |Preço final:  R$" + precoFinal();    }
+
+
+    
 }

@@ -1,58 +1,47 @@
-# Java Exercícios
+# 🚀 Jornada Backend Java
 
-### Sobre 
+Repositório dedicado à evolução prática em Java para desenvolvimento Backend, cobrindo desde lógica e Orientação a Objetos até APIs REST com Spring Boot e Bancos de Dados.
 
-Repositório feito para exercícios de fixação de Java, no quesito lógica, OOP e boas práticas.
+---
 
-## Estrutura
+## 🧭 Trilha de Aprendizado
 
+- [x] **Módulo 1: Fundamentos da Linguagem e POO Essencial**
+- [ ] **Módulo 2: Java Collections Framework, Generics & Exceptions** *(Em andamento)*
+- [ ] **Módulo 3: Java Moderno (Streams API, Lambdas, Optional) & Testes Unitários (JUnit 5)**
+- [ ] **Módulo 4: Persistência de Dados, SQL & JPA / Hibernate**
+- [ ] **Módulo 5: Ecossistema Spring Boot & APIs RESTful**
+
+---
+
+## 📂 Estrutura do Repositório
+
+```text
 src/
-├── tipoderetorno/
-├── escopovariaveis/
-├── wrappers/
-├── nomenclatura/
-├── fluxoexecucao/
-└── heranca/
+├── modulo1/
+│   ├── tipoderetorno/
+│   ├── escopovariaveis/
+│   ├── wrappers/
+│   ├── nomenclatura/
+│   ├── fluxoexecucao/
+│   ├── heranca/
+│   ├── polimorfismo/
+│   ├── returnexercicio/
+│   ├── revisaogeral/
+│   └── revisaoOOP/
+└── modulo2/
+```
 
-## Exercícios Concluídos
+---
 
-### Tipos de Retorno
-- [x] Soma (int)
-- [x] Classificar Preço (String)
-- [x] Maior de Três (int)
+## ✅ Entregas Concluídas
 
-### Revisão
-- [x] Dobro (int)
-- [x] Saudação (String)
-- [x] Desconto VIP (double)
-
-### Escopo de Variáveis
-
-- [x] tentar acessar uma variável local dentro de um método da classe.
-
-### Wrappers
-
-- [x] conversor de String para int
-- [x] conversor de String para double
-- [x] conversor de int para String
-- [x] conversor de double para String
-
-### Nomenclatura
-
-- [x] Estudo de como declarar uma variável 
-- [x] Criação da classe ContaBancaria e Estudante
-
-### Fluxo de Execução
-
-- [x] Conceitos de break e Continue dentro do funcionamento do código
-
-### Herança e Polimorfismo 
-
-- [x] Criação da classe Animal com herança para Cachorro, Gato e Pato
-- [x] Teste de emição de sons utilizando o polimorfismo para que cada um implemente o comando da sua forma
-
-
-
-
-
-
+### 📦 Módulo 1 — Fundamentos & POO
+- **Tipos de Retorno & Métodos:** Operações aritméticas, classificadores e regras com retorno tipado.
+- **Wrappers & Conversões:** Conversão e parsing seguro entre tipos primitivos (`int`, `double`) e `String`.
+- **Escopo & Fluxo:** Controle de execução com `break`, `continue` e escopos de variáveis de instância e locais.
+- **Herança & Encapsulamento:** Modelagem de entidades (`Animal`, `Funcionario`, `Veiculo`) com atributos encapsulados.
+- **Polimorfismo & Interfaces:** 
+  - Cálculo de áreas geométricas (`Circulo`, `Retangulo`, `Quadrado`).
+  - Sistema de Caixa e Vendas utilizando interfaces (`FormaPagamento`, `Tributavel`) desacopladas de implementações concretas (`PagamentoPix`, `PagamentoCartao`, `PagamentoBoleto`).
+  - Modelagem de produtos nacionais e importados com cálculo diferenciado de taxas.

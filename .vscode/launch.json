@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Executar modulo2.Main",
+            "request": "launch",
+            "mainClass": "modulo2.Main"
+        }
+    ]
+}

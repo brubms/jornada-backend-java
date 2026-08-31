@@ -45,3 +45,8 @@ src/
   - Cálculo de áreas geométricas (`Circulo`, `Retangulo`, `Quadrado`).
   - Sistema de Caixa e Vendas utilizando interfaces (`FormaPagamento`, `Tributavel`) desacopladas de implementações concretas (`PagamentoPix`, `PagamentoCartao`, `PagamentoBoleto`).
   - Modelagem de produtos nacionais e importados com cálculo diferenciado de taxas.
+
+### Módulo 2 — Collections & Estruturas de Dados (Em andamento)
+- **List & ArrayList:** Gerenciamento dinâmico de estoque e processamento de carrinho de compras com múltiplos produtos no `Caixa`.
+- **Map & HashMap:** Implementação de catálogo de produtos com busca eficiente \(O(1)\) por código identificador, com operações de cadastro, recuperação direta, remoção e verificação de existência (`containsKey`).
+

@@ -1,4 +1,4 @@
-package heranca;
+package modulo1.heranca;
 public class Carro extends Veiculo {
 
     public Carro(String marca, String modelo){

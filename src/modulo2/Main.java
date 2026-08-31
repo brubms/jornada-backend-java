@@ -1,5 +1,7 @@
 package modulo2;
 
+import java.lang.reflect.TypeVariable;
+
 import modulo1.revisaoOOP.FormaPagamento;
 import modulo1.revisaoOOP.PagamentoPix;
 import modulo1.revisaoOOP.ProdutoImportado;
@@ -12,15 +14,19 @@ public class Main {
         Estoque estoque = new Estoque();
         Caixa caixa = new Caixa();
 
-        estoque.adicionarProduto(new ProdutoImportado("TV", 8000.0) );
-        estoque.adicionarProduto(new ProdutoNacional("NoteBook", 3000.0) );
-        estoque.adicionarProduto(new ProdutoImportado("Iphone 16",4000.0));
-        System.out.println("-------------------");
-        estoque.listarProdutos();
-        System.out.println("-------------------");
-        System.out.println(estoque.quantidadeTotal());
-        System.out.println("-------------------");
-        caixa.finalizarVenda(estoque.getProdutos(), new PagamentoPix());
+        
+        
+        estoque.cadastrarProdutoNoCatalogo("P01", new ProdutoNacional("TV", 2000));
+        estoque.cadastrarProdutoNoCatalogo("P02", new ProdutoImportado("Iphone", 7000.0));
+
+        
+
+        System.out.println(estoque.buscarNoCatalogo("P02"));
+
+        estoque.removerDoCatalogo("P02");
+
+        
+        System.out.println(estoque.existeNoCatalogo("P02"));
     }   
 
 }

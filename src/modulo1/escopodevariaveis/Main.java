@@ -1,4 +1,4 @@
-package escopodevariaveis;
+package modulo1.escopodevariaveis;
 
 public class Main {
 

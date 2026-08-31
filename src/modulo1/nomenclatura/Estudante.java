@@ -1,4 +1,4 @@
-package nomenclatura;
+package modulo1.nomenclatura;
 
 public class Estudante {
 

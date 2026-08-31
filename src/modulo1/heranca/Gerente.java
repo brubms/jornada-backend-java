@@ -1,4 +1,4 @@
-package heranca;
+package modulo1.heranca;
 public class Gerente extends Funcionario{
 
     public Gerente(String nome, double salario){

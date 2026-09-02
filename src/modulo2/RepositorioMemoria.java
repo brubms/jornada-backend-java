@@ -19,6 +19,10 @@ public class RepositorioMemoria<T> implements Repositorio<T> {
     }
     @Override
     public T buscarItem(String id){
+        if(!dados.containsKey(id)){
+            throw new ItemNaoLocalizadoException(id + "Não localizado");
+        }
+
        return dados.get(id);
     }
     @Override
@@ -33,5 +37,6 @@ public class RepositorioMemoria<T> implements Repositorio<T> {
     public int totalItens(){
         return dados.size();
     }
+
 
 }

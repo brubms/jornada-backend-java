@@ -19,7 +19,13 @@ public class Main {
         
         repositorio.salvarItem("P02", new ProdutoNacional("Iphone 16", 9000.0));
 
-        System.out.println(repositorio.buscarItem("P01"));
+        try{
+            repositorio.buscarItem("P99");
+            System.out.println( "Item localizado ");
+        }catch(ItemNaoLocalizadoException e){
+            System.out.println("Aviso do sistema: " + e.getMessage());
+        }
+        
 
         System.out.println("-------------------");
 

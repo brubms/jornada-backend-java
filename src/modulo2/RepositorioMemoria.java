@@ -16,11 +16,12 @@ public class RepositorioMemoria<T> implements Repositorio<T> {
     @Override
     public void salvarItem(String id, T item){
         dados.put(id, item);
+        
     }
     @Override
     public T buscarItem(String id){
         if(!dados.containsKey(id)){
-            throw new ItemNaoLocalizadoException(id + "Não localizado");
+            throw new ItemNaoLocalizadoException(id + " Não localizado");
         }
 
        return dados.get(id);
@@ -37,6 +38,7 @@ public class RepositorioMemoria<T> implements Repositorio<T> {
     public int totalItens(){
         return dados.size();
     }
+   
 
 
 }

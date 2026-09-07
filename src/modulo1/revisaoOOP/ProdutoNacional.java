@@ -2,8 +2,8 @@ package modulo1.revisaoOOP;
 
 public class ProdutoNacional extends Produto {
 
-    public ProdutoNacional(String nome, double preco){
-        super(nome, preco);
+    public ProdutoNacional(String id ,String nome, double preco){
+        super(id , nome, preco);
     }
     @Override
     public double calcularImposto(){

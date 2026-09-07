@@ -4,11 +4,13 @@ public abstract class Produto implements Tributavel {
 
     private String nome;
     private double preco;
+    private String id;
     
 
-    public Produto(String nome, double preco){
+    public Produto(String id , String nome, double preco){
         this.nome = nome;
         this.preco = preco;
+        this.id = id;
     }
 
     public double getPreco(){
@@ -16,6 +18,9 @@ public abstract class Produto implements Tributavel {
     }
     public String getNome(){
         return this.nome;
+    }
+    public String getId(){
+        return this.id;
     }
 
     public double precoFinal(){

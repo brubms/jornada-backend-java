@@ -16,7 +16,15 @@ public class Caixa {
         }
          System.out.println("Venda: " + carrinho.size() + "itens finalizada. Total: R$" + total);
                formaPagamento.processarPagamento(total);
+
        
     }
+    public double subtotal(List<Produto> carrinho){
+        double total = 0;  
+        for(Produto produto : carrinho){
+            total += produto.precoFinal();
+        }  
+        return total;
+       } 
 
 }

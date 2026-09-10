@@ -324,9 +324,12 @@ public class Main {
                     // texto do recibo com id do item, preço e valor de cada com total
                     String textoRecibo = "========= RECIBO DA COMPRA ======\n";
                     for (Produto p : carrinho) {
-                        textoRecibo += "[" + p.getId() + "]" + p.getNome() + " - R$ " + p.precoFinal() + "\n Total: R$"
-                                + caixaLoja.subtotal(carrinho) + "\n Forma de pagamento: " + formaDePagamento;
+                        textoRecibo += "[" + p.getId() + "]" + p.getNome() + " - R$ " + p.precoFinal() + "\n";
                     }
+                    textoRecibo += "---------------------------------------\n";
+                    textoRecibo += "Total R$" + caixaLoja.subtotal(carrinho) + "\n";
+                    textoRecibo += "Forma de pagamento: " + formaDePagamento + "\n";
+                    textoRecibo += "========================================\n";
                     //Se a resposta for 's' então o sistema gera um recibo do tipo ReciboArquivo
                     if (encerrar.equalsIgnoreCase("S")) {
                         //criação do objeto Recibo do tipo ReciboArquivo

@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "modulo3.Main",
+            "projectName": "jornada-backend-java_231bdc3"
+        },
+        {
+            "type": "java",
             "name": "Executar modulo2.Main",
             "request": "launch",
             "mainClass": "modulo2.Main"

@@ -8,5 +8,6 @@
     },
     "files.readonlyInclude": {
         "{**/.c4z/.extsrcs/*.PROTSYM.cbl,**/.c4z/.extsrcs/*.PROTSYM.listing}": true
-    }
+    },
+    "java.jdt.ls.vmargs": "-XX:+UseG1GC -XX:+UseStringDeduplication -Xms256m -Xmx2048m"
 }

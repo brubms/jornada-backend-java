@@ -1,11 +1,7 @@
 package modulo3;
 
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestFactory;
-
 import static org.junit.jupiter.api.Assertions.*;
-
-import java.util.List;
 
 import modulo2.Estoque;
 import modulo1.revisaoOOP.ProdutoNacional;

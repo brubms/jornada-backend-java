@@ -44,7 +44,9 @@ public class Estoque {
         this.catalogo.put(id, produto);
     }
     public Produto buscarNoCatalogo(String id){
-       
+        if(!catalogo.containsKey(id)){
+            throw new ItemNaoLocalizadoException("Item " + id + " não localizado");
+        }
             return this.catalogo.get(id);
         
     }
